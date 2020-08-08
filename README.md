@@ -16,5 +16,5 @@ git clone https://github.com/rea94/Wies
 ```
 
 ## Contributing
-A big Thanks to dipa94 for core development
-[dipa94](https://github.com/dipa96)
+A big Thanks to dipa96 for core development
+[dipa96](https://github.com/dipa96)
