@@ -22,10 +22,7 @@ python3 ~/tools/Turbolist3r/turbolist3r.py  -d $domain -o domainturbo.txt &>/dev
 sleep 1
 printf "\n${RED}Mergin the Results${NC}\n\n"
 sleep 2
-cat domainsublister.txt >domainp.txt
-cat domainasset.txt  >> domainp.txt
-cat domainsubfinder.txt >>domainp.txt
-cat domainturbo.txt >> domainp.txt
+cat domainsublister.txt domainasset.txt domainsubfinder.txt domainturbo.txt  > domainp.txt
 sort domainp.txt | uniq -u >> domain1
 rm -r domainsublister.txt | rm -r domainasset.txt | rm -r domainsubfinder.txt | rm -r domainturbo.txt | rm -r domainp.txt
 printf "\n${RED}Running Httprobe...${NC}\n\n"
